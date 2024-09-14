@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.hero {
+    background-color: #111;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotext {
+    color: white;
+    background-color: #111;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+.herotext p,
+.header_label {
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.green-circle {
+    color: #10C059;
+    background-color: #151F17;
+    border-radius: 50rem;
+    padding: 0.1rem 0.5rem;
+    border: 1px solid #10C059;
+}
+
+.opacity-70 {
+    opacity: 0.3;
+}
+
+.opacity-50 {
+    opacity: 0.1;
+}
